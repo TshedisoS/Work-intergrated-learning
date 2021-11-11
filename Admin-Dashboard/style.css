@@ -1,0 +1,72 @@
+body{
+background-image:url('image2.jpg') ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.cards{
+    display:grid ;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-gap:2rem;
+}
+.card-single{
+    display:flex ;
+    justify-content: space-between;
+    background-color: #eee;
+}
+table{
+    width: 90%;
+    margin: 40px;
+    background: rgb(124, 154,167);
+}
+table.list{
+    text-align: center;
+    width: 90%;    
+}
+td{
+    border: 1px solid rgb(204, 200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+tr:nth-child(even),table.list thread>tr{
+    background-color:rgb(100, 83, 83);
+}
+input[type="text"],input[type="number"]{
+width: 91%;
+padding: 12px 20px;
+margin: 8px;
+display: inline-block;
+border:1px solid rgb(165,161,161);
+border-radius: 5px;
+}
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 10px;
+    display: inline-block;
+    border:none;  
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+background: #4b99d8;
+}
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+botton{
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 10px;
+    display: inline-block;
+    border:none;  
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background: #4b99d8;
+}
